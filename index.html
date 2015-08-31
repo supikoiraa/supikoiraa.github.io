@@ -22,13 +22,42 @@
 				<p>Verkkosovelluskehitys LTP7026</p>		
 			</section>
  
-			<section id="show-a-link">
+			<section id="slide2">
 				<h2>Jatkoa...</h2>
 				<p>Tänne tulen päivittelemään kuulumisiani</p>
 				
 			</section>
- 
- 
+ 			<section id ="verkkoprotokolla">
+ 			<h1><a id="Verkkoprotokollat_0"></a>Verkkoprotokollat</h1>
+ 			</section>
+ 			<section id="TCP/IP">
+ 				<h2><a id="tcp_ip"></a>TCP/IP</h2>
+				<p>Tämä on protokolla määrittelee kuinka laitteiden tulee yhdistyä Internetin yli ja kuinka dataa välitetään niiden välillä.
+				TCP/IP tarkoittaa monien protokollien joukkoa, joka voidaan luetella yhdeksi, koska se hoitaa kokonaisen tehtävän.</p>
+				<p>TCP hoitaa pakettien pilkkomisen ja niiden kasaamisen oikeaan järjestykseen määränpäässä. Näin saadaan vähemmän pakettien häviämistä, koska pienemmät osaset voidaan kierrättää erikautta kunhan ne vain kasataan takaisin oikeassa järjetyksessä. Jos paketteja  puuttuu TCP hoitaa myös pakettien uudelleen lähetyksen.</p>
+				<p>IP on lähetyksessä metodi, jotta lähetetyt paketit löytävät määränpäähänsä. IP ei itsessään luo fyysistä yhteyttä tietokoneiden välillä vaan tähän tarvitaan TCP:aa.</p>
+ 			</section>
+ 			<section id ="FTP">
+ 				<h2><a id="ftp"></a>FTP (File Transfer Protocol)</h2>
+				<p>FTP nimensä mukaisesti hoitaa tiedostojen siirron koneelta koneelle Internetin yli. Ennen kuin WWW tuli kuvion oli FTP:n suosio paljon korkeampi. Nykyään FTP:aa käytetään tiedostojen lataamiseen Web-sivuille. Sillä voi myös ladata tiedostoja koneelle netistä, mutta siihen käytetään nykyään yleisimmin HTTP:aa</p>
+ 			</section>
+ 			<section id="HTTP">
+ 				<h2><a id="http_https"></a>HTTP (Hyper Text Transfer Protocol) ja HTTPS(Hyper Text Transfer Protocol over Secure Socket Layer)</h2>
+				<p>Http hoitaa liikenteen web-selaimen ja webserverin välillä, jotta clientille(selaimelle) saadaan serverillä sijaitseva web-sisältö tuotua.
+				HTTP pitää myös huolen, että HTML -sivu ladataan netin yli tietyn standardin mukaisesti.</p>
+				<p>HTTPS antaa kryptausturvan datalle, jota ulkopuolisten ei tarvitse tietää.</p>
+				<p>Alla sijaitsevista kuvista käy ilmi edellä mainitut komennot. Komennot eivät tietysti aivan ensimmäisellä menneet läpi, mutta loppujen lopuksi.</p>
+ 			</section>
+ 			<section id="EmailP">
+ 				<h2><a id="Shkpostissa_kytetyt_protokollat_25"></a>Sähköpostissa käytetyt protokollat</h2>
+				<h3><a id="SMTP_27"></a>SMTP</h3>
+				<p>Pitää huolen sähköpostien lähetyksestä sähköpostiserveriltä toisella ja lopuksi vastaanottajalle. Voi lähettää vain puhdasta tekstiä. Käyttää usein porttia 25.</p>
+				<h3><a id="POP3_31"></a>POP3</h3>
+				<p>Se lataa kaikki sähköpostisi sähköposti clientille aina, kun sinne yhdistää ja ne ovat luettavissa clientilla tällöin.
+				Käyttää usein porttia 110.</p>
+				<h3><a id="IMAP_34"></a>IMAP</h3>
+				<p>On hyvin samankaltainen kuin POP, mutta se ei lataa sähköposteja aina, kun sinne yhdistetään vaan voit itse valita minkä sähköpostin lataat tai vaikka haluatko sen poistaa. Tallentaa kaikki sähköpostit serverille. Käyttää usein porttia 143.</p>
+ 			</section>
 			</div>
 	</div>
 	<script src="lib/js/head.min.js"></script>
